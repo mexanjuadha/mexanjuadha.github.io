@@ -1,5 +1,7 @@
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("font-awesome.min.css");
+@import url("font-cac.css");
+
 
 /*
 	Astral by HTML5 UP
@@ -1338,7 +1340,7 @@
 
 			#me {
 				padding: 0;
-				height: 20em;
+				height: 30em;
 			}
 
 				#me .pic {
@@ -1409,14 +1411,43 @@
 						margin: 0;
 					}
 
-					#me header > p {
-						position: absolute;
-						left: 0;
-						top: 52.5%;
-						font-size: 1.5em;
-						letter-spacing: -0.015em;
-						margin-top: 0;
+					#me header > h2 {
+					    position: absolute;
+                        left : 28.5%;
+                        top: 15.5%;
+                        right: 0;
+                        font-family: cac;
+                        font-size : 2.5em;
+                        color: #745353;
 					}
+
+					#me header > h3 {
+						position: absolute;
+                        left : 27%;
+                        top: 25%;
+                        right: 0;
+                        font-family: cac;
+                        font-size : 2.5em;
+                        color: #745353;
+					}
+					#me header > h4 {
+                    	position: absolute;
+                        left : 28%;
+                        top: 40.5%;
+                        right: 0;
+                        font-family: cac;
+                        vertical-align: middle;
+                        font-size : 3.5em;
+                        color: #F2798F;
+                    }
+
+                    .imagesample {
+                        position: absolute;
+                        width: 50%;
+                        left : 20%;
+                        bottom: 10%;
+                     }
+
 
 		/* Footer */
 
@@ -1538,6 +1569,11 @@
 				}
 
 		/* Me */
+		#me {
+        	padding: 0;
+        	height: 15em;
+        	font-family:cac;
+        	}
 
 			#me .pic {
 				width: 100%;
@@ -1581,4 +1617,11 @@
 						display: none;
 					}
 
+            .imagesample {
+                position: absolute;
+                width: 50%;
+                left : 25%;
+                bottom: 10%;
+
+            }
 	}
