@@ -1589,7 +1589,7 @@
 		/* Me */
 		#me {
         	padding: 0;
-        	height: 15em;
+        	height: 16em;
         	font-family:cac;
         	}
 
@@ -1639,7 +1639,14 @@
                 position: absolute;
                 width: 50%;
                 left : 25%;
-                bottom: 10%;
+                bottom: 20%;
 
             }
+
+             .linksample {
+                position: absolute;
+                 width: 50%;
+                 left : 25%;
+                 bottom: 0%;
+                                 }
 	}
