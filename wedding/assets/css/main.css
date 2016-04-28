@@ -1466,6 +1466,12 @@
                          color: #745353;
                      }
 
+                     #contact header > h2 {
+                                             font-family: cac;
+                                             font-size : 3.5em;
+                                             color: #745353;
+                                          }
+
 
 		/* Footer */
 
